@@ -1,0 +1,58 @@
+[0.007s] Invoking command in '/home/a/rm_vision_ws/src/build/armor_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/a/rm_vision_ws/src/build/armor_detector -- -j8 -l8
+[0.028s] [35m[1mConsolidate compiler generated dependencies of target armor_detector_node[0m
+[0.035s] [ 33%] [32mBuilding CXX object CMakeFiles/armor_detector_node.dir/src/detector_node.cpp.o[0m
+[1.627s] [01m[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:[m[K In member function ‘[01m[Kvoid ArmorDetectorNode::imageCallback(const ConstSharedPtr&)[m[K’:
+[1.627s] [01m[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:94:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct Armor[m[K’ has no member named ‘[01m[Kcenter3d[m[K’
+[1.627s]    94 |             float x = a.[01;31m[Kcenter3d[m[K.x;
+[1.628s]       |                         [01;31m[K^~~~~~~~[m[K
+[1.628s] [01m[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:95:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct Armor[m[K’ has no member named ‘[01m[Kcenter3d[m[K’
+[1.628s]    95 |             float y = a.[01;31m[Kcenter3d[m[K.y;
+[1.628s]       |                         [01;31m[K^~~~~~~~[m[K
+[1.628s] [01m[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:96:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct Armor[m[K’ has no member named ‘[01m[Kcenter3d[m[K’
+[1.628s]    96 |             float z = a.[01;31m[Kcenter3d[m[K.z;
+[1.628s]       |                         [01;31m[K^~~~~~~~[m[K
+[1.630s] [01m[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:[m[K In member function ‘[01m[Kvoid ArmorDetectorNode::drawBox(cv::Mat&, float, float, float, cv::Scalar)[m[K’:
+[1.631s] [01m[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:123:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ was not declared in this scope
+[1.631s]   123 |         [01;31m[Kvector[m[K<cv::Point3d> pts = {{-w/2,-h/2,0},{w/2,-h/2,0},{w/2,h/2,0},{-w/2,h/2,0}};
+[1.631s]       |         [01;31m[K^~~~~~[m[K
+[1.634s] [01m[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:123:9:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[1.635s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[1.635s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[1.635s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[1.635s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.635s]                  from [01m[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:1[m[K:
+[1.635s] [01m[K/usr/include/c++/11/bits/stl_vector.h:389:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector[m[K’
+[1.635s]   389 |     class [01;36m[Kvector[m[K : protected _Vector_base<_Tp, _Alloc>
+[1.635s]       |           [01;36m[K^~~~~~[m[K
+[1.635s] In file included from [01m[K/usr/include/c++/11/functional:62[m[K,
+[1.635s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[1.635s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.635s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.635s]                  from [01m[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:1[m[K:
+[1.635s] [01m[K/usr/include/c++/11/vector:86:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::pmr::vector[m[K’
+[1.635s]    86 |       using [01;36m[Kvector[m[K = std::vector<_Tp, polymorphic_allocator<_Tp>>;
+[1.635s]       |             [01;36m[K^~~~~~[m[K
+[1.635s] [01m[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:123:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.636s]   123 |         vector<cv::Point3d[01;31m[K>[m[K pts = {{-w/2,-h/2,0},{w/2,-h/2,0},{w/2,h/2,0},{-w/2,h/2,0}};
+[1.636s]       |                           [01;31m[K^[m[K
+[1.639s] [01m[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:123:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kpts[m[K’ was not declared in this scope; did you mean ‘[01m[Kputs[m[K’?
+[1.639s]   123 |         vector<cv::Point3d> [01;31m[Kpts[m[K = {{-w/2,-h/2,0},{w/2,-h/2,0},{w/2,h/2,0},{-w/2,h/2,0}};
+[1.639s]       |                             [01;31m[K^~~[m[K
+[1.639s]       |                             [32m[Kputs[m[K
+[1.640s] [01m[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:124:25:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.640s]   124 |         vector<cv::Point[01;31m[K>[m[K res;
+[1.640s]       |                         [01;31m[K^[m[K
+[1.643s] [01m[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:124:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kres[m[K’ was not declared in this scope
+[1.643s]   124 |         vector<cv::Point> [01;31m[Kres[m[K;
+[1.643s]       |                           [01;31m[K^~~[m[K
+[2.344s] gmake[2]: *** [CMakeFiles/armor_detector_node.dir/build.make:76：CMakeFiles/armor_detector_node.dir/src/detector_node.cpp.o] 错误 1
+[2.345s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/armor_detector_node.dir/all] 错误 2
+[2.345s] gmake: *** [Makefile:146：all] 错误 2
+[2.347s] Invoked command in '/home/a/rm_vision_ws/src/build/armor_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/a/rm_vision_ws/src/build/armor_detector -- -j8 -l8

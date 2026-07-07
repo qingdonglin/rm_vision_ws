@@ -1,0 +1,6 @@
+{"terminal.integrated.contextMenuActions": [
+    "openInTerminal",
+    "openInExternalTerminal"
+],
+"cmake.sourceDirectory": "/home/a/rm_vision_ws/src/rm_serial_driver"
+}

@@ -1,0 +1,4 @@
+Invoking command in '/home/a/rm_vision_ws/src/build/armor_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/a/rm_vision_ws/src/armor_detector -DCMAKE_INSTALL_PREFIX=/home/a/rm_vision_ws/src/install/armor_detector
+Invoked command in '/home/a/rm_vision_ws/src/build/armor_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/a/rm_vision_ws/src/armor_detector -DCMAKE_INSTALL_PREFIX=/home/a/rm_vision_ws/src/install/armor_detector
+Invoking command in '/home/a/rm_vision_ws/src/build/armor_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/a/rm_vision_ws/src/build/armor_detector -- -j8 -l8
+Invoked command in '/home/a/rm_vision_ws/src/build/armor_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/a/rm_vision_ws/src/build/armor_detector -- -j8 -l8

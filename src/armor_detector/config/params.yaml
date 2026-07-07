@@ -1,0 +1,14 @@
+armor_detector_node:
+  ros__parameters:
+    # 相机内参 9个数值
+    camera_matrix: [650.0, 0.0, 320.0,
+                    0.0, 650.0, 240.0,
+                    0.0, 0.0, 1.0]
+    # 畸变系数 5个数值
+    distortion_coefficients: [0.0, 0.0, 0.0, 0.0, 0.0]
+    # 卡尔曼噪声参数
+    kf_q_pos: 1.0
+    kf_q_vel: 5.0
+    kf_q_acc: 20.0
+    kf_r_obs: 0.1
+    kf_T_delay: 0.003

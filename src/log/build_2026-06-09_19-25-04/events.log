@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.000311] (armor_detector) JobQueued: {'identifier': 'armor_detector', 'dependencies': OrderedDict()}
+[0.000704] (armor_detector) JobStarted: {'identifier': 'armor_detector'}
+[0.005103] (armor_detector) JobProgress: {'identifier': 'armor_detector', 'progress': 'cmake'}
+[0.005912] (armor_detector) JobProgress: {'identifier': 'armor_detector', 'progress': 'build'}
+[0.006041] (armor_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/a/rm_vision_ws/src/build/armor_detector', '--', '-j8', '-l8'], 'cwd': '/home/a/rm_vision_ws/src/build/armor_detector', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'a'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/a/rm_vision_ws/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/a'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/a/rm_vision_ws'), ('TERM_PROGRAM_VERSION', '1.122.1'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1559'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1827'), ('BUNDLED_DEBUGPY_PATH', '/home/a/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2408'), ('COLCON_PREFIX_PATH', '/home/a/rm_vision_ws/src/install:/home/a/rm_vision_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'a'), ('JOURNAL_STREAM', '8:28038'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'a'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/a/.local/bin:/opt/ros/humble/bin:/home/a/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/a/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/a-virtual-machine:@/tmp/.ICE-unix/1803,unix/a-virtual-machine:/tmp/.ICE-unix/1803'), ('INVOCATION_ID', '241756fc710a4e048c198943be351140'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/a/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-98dc97f0f277aba6.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/a/.config/Code/User/workspaceStorage/3f3a711784427ef5831f4bcd4db83f97/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-83c008a431.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/a/rm_vision_ws/install/kalman_tracker:/home/a/rm_vision_ws/install/armor_detector:/home/a/rm_vision_ws/install/auto_aim_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/a/rm_vision_ws/src/build/armor_detector'), ('QT_QPA_PLATFORM', 'offscreen'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/a/rm_vision_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/a/rm_vision_ws/install/kalman_tracker:/home/a/rm_vision_ws/install/armor_detector:/home/a/rm_vision_ws/install/auto_aim_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.028659] (armor_detector) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target armor_detector_node\x1b[0m\n'}
+[0.035325] (armor_detector) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/armor_detector_node.dir/src/detector_node.cpp.o\x1b[0m\n'}
+[0.100539] (-) TimerEvent: {}
+[0.200925] (-) TimerEvent: {}
+[0.301273] (-) TimerEvent: {}
+[0.401616] (-) TimerEvent: {}
+[0.502377] (-) TimerEvent: {}
+[0.602829] (-) TimerEvent: {}
+[0.703493] (-) TimerEvent: {}
+[0.803767] (-) TimerEvent: {}
+[0.904238] (-) TimerEvent: {}
+[1.004443] (-) TimerEvent: {}
+[1.104888] (-) TimerEvent: {}
+[1.205240] (-) TimerEvent: {}
+[1.305679] (-) TimerEvent: {}
+[1.406275] (-) TimerEvent: {}
+[1.506758] (-) TimerEvent: {}
+[1.607129] (-) TimerEvent: {}
+[1.628008] (armor_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ArmorDetectorNode::imageCallback(const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.628157] (armor_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:94:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct Armor\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kcenter3d\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.628189] (armor_detector) StderrLine: {'line': b'   94 |             float x = a.\x1b[01;31m\x1b[Kcenter3d\x1b[m\x1b[K.x;\n'}
+[1.628215] (armor_detector) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.628560] (armor_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:95:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct Armor\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kcenter3d\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.628659] (armor_detector) StderrLine: {'line': b'   95 |             float y = a.\x1b[01;31m\x1b[Kcenter3d\x1b[m\x1b[K.y;\n'}
+[1.628705] (armor_detector) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.628730] (armor_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:96:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct Armor\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kcenter3d\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.628754] (armor_detector) StderrLine: {'line': b'   96 |             float z = a.\x1b[01;31m\x1b[Kcenter3d\x1b[m\x1b[K.z;\n'}
+[1.628777] (armor_detector) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.631162] (armor_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ArmorDetectorNode::drawBox(cv::Mat&, float, float, float, cv::Scalar)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.631244] (armor_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:123:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvector\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.631274] (armor_detector) StderrLine: {'line': b'  123 |         \x1b[01;31m\x1b[Kvector\x1b[m\x1b[K<cv::Point3d> pts = {{-w/2,-h/2,0},{w/2,-h/2,0},{w/2,h/2,0},{-w/2,h/2,0}};\n'}
+[1.631299] (armor_detector) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.635165] (armor_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:123:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.635358] (armor_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[1.635399] (armor_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[1.635425] (armor_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[1.635449] (armor_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[1.635471] (armor_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[1.635492] (armor_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.635538] (armor_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.635705] (armor_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.635767] (armor_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.635793] (armor_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:389:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.635820] (armor_detector) StderrLine: {'line': b'  389 |     class \x1b[01;36m\x1b[Kvector\x1b[m\x1b[K : protected _Vector_base<_Tp, _Alloc>\n'}
+[1.635842] (armor_detector) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.635864] (armor_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[1.635919] (armor_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[1.636000] (armor_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[1.636026] (armor_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[1.636048] (armor_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.636069] (armor_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.636091] (armor_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.636115] (armor_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.636136] (armor_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/vector:86:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::pmr::vector\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.636156] (armor_detector) StderrLine: {'line': b'   86 |       using \x1b[01;36m\x1b[Kvector\x1b[m\x1b[K = std::vector<_Tp, polymorphic_allocator<_Tp>>;\n'}
+[1.636177] (armor_detector) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.636196] (armor_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:123:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.636219] (armor_detector) StderrLine: {'line': b'  123 |         vector<cv::Point3d\x1b[01;31m\x1b[K>\x1b[m\x1b[K pts = {{-w/2,-h/2,0},{w/2,-h/2,0},{w/2,h/2,0},{-w/2,h/2,0}};\n'}
+[1.636243] (armor_detector) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.639967] (armor_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:123:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpts\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kputs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.640045] (armor_detector) StderrLine: {'line': b'  123 |         vector<cv::Point3d> \x1b[01;31m\x1b[Kpts\x1b[m\x1b[K = {{-w/2,-h/2,0},{w/2,-h/2,0},{w/2,h/2,0},{-w/2,h/2,0}};\n'}
+[1.640074] (armor_detector) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.640097] (armor_detector) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kputs\x1b[m\x1b[K\n'}
+[1.640199] (armor_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:124:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.640251] (armor_detector) StderrLine: {'line': b'  124 |         vector<cv::Point\x1b[01;31m\x1b[K>\x1b[m\x1b[K res;\n'}
+[1.640275] (armor_detector) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.643479] (armor_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/a/rm_vision_ws/src/armor_detector/src/detector_node.cpp:124:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kres\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.643550] (armor_detector) StderrLine: {'line': b'  124 |         vector<cv::Point> \x1b[01;31m\x1b[Kres\x1b[m\x1b[K;\n'}
+[1.643575] (armor_detector) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.707298] (-) TimerEvent: {}
+[1.808241] (-) TimerEvent: {}
+[1.908595] (-) TimerEvent: {}
+[2.009223] (-) TimerEvent: {}
+[2.109896] (-) TimerEvent: {}
+[2.210612] (-) TimerEvent: {}
+[2.311119] (-) TimerEvent: {}
+[2.344971] (armor_detector) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/armor_detector_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/armor_detector_node.dir/src/detector_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[2.345266] (armor_detector) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/armor_detector_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.345469] (armor_detector) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.347145] (armor_detector) CommandEnded: {'returncode': 2}
+[2.352487] (armor_detector) JobEnded: {'identifier': 'armor_detector', 'rc': 2}
+[2.363067] (-) EventReactorShutdown: {}

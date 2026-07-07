@@ -1,0 +1,10 @@
+/home/a/rm_vision_ws/src/build/armor_detector/CMakeFiles/uninstall.dir
+/home/a/rm_vision_ws/src/build/armor_detector/CMakeFiles/armor_detector_uninstall.dir
+/home/a/rm_vision_ws/src/build/armor_detector/CMakeFiles/armor_detector_node.dir
+/home/a/rm_vision_ws/src/build/armor_detector/CMakeFiles/test.dir
+/home/a/rm_vision_ws/src/build/armor_detector/CMakeFiles/edit_cache.dir
+/home/a/rm_vision_ws/src/build/armor_detector/CMakeFiles/rebuild_cache.dir
+/home/a/rm_vision_ws/src/build/armor_detector/CMakeFiles/list_install_components.dir
+/home/a/rm_vision_ws/src/build/armor_detector/CMakeFiles/install.dir
+/home/a/rm_vision_ws/src/build/armor_detector/CMakeFiles/install/local.dir
+/home/a/rm_vision_ws/src/build/armor_detector/CMakeFiles/install/strip.dir
